@@ -4,7 +4,7 @@ from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 
 class UserLoginForm(forms.Form):
-    """Form to login users"""
+    """Form to log in users"""
     
     username = forms.CharField()
     password = forms.CharField(widget=forms.PasswordInput)
@@ -17,7 +17,7 @@ class UserRegistrationForm(UserCreationForm):
     
     class Meta:
         model = User
-        fields = ['email', 'username', 'password1', 'password2']
+        fields = ['first_name', 'last_name', 'username', 'email', 'password1', 'password2']
     
     def clean_email(self):
         email = self.cleaned_data.get('email')
