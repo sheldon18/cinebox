@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect, reverse
-from django.contrib import auth
+from django.contrib import auth, messages
 
 # Create your views here.
 def index(request):
@@ -9,4 +9,5 @@ def index(request):
 def logout(request):
     """Log out the user"""
     auth.logout(request)
+    messages.success(request, "You have been successfully been logged out!")
     return redirect(reverse('index'))
