@@ -16,7 +16,7 @@
                     <li><a href="{% url 'logout' %}">Sign Out</a></li>
                 {% else %}
                     <li><a href="{% url 'login' %}">Sign In</a></li>
-                    <li><a href="#">Sign Up</a></li>
+                    <li><a href="{% url 'registration' %}">Sign Up</a></li>
                 {% endif %}
             </ul>
         </nav>
