@@ -37,3 +37,28 @@ class UserRegistrationForm(UserCreationForm):
             raise forms.ValidationError("Passwords must match")
         
         return password2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
