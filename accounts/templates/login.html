@@ -17,16 +17,20 @@
         </ul>
     </nav>
     <hr>
+
+    <form method="POST">
+        {% csrf_token %}
+        {{ login_form }}
+        <button type="submit">Sign In</button>
+    </form>
+    
     {% if messages %}
-    <div>
-        {% for message in messages %}
-            {{ message }}
-        {% endfor %}
-    </div>
+        <div>
+            {% for message in messages %}
+                {{ message }}
+            {% endfor %}
+        </div>
     {% endif %}
     
-    <form method="POST">
-        {{ login_form }}
-    </form>
 </body>
 </html>
