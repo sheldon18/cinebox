@@ -9,4 +9,10 @@
 
 <p>Already have an account? Please <a href="{% url 'login' %}">sign in</a>.</p>
 
+<form method="POST">
+    {% csrf_token %}
+    {{ registration_form.as_p }}
+    <button type="submit">Sign Up</button>
+</form>
+
 {% endblock %} 
