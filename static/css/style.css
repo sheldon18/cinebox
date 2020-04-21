@@ -1,0 +1,31 @@
+.navbar-inverse {
+    background-color: #1c1a1a !important;
+    border-color: #1c1a1a !important;
+}
+
+body {
+    background-color: #1c1a1a !important;
+}
+
+
+.navbar-brand > img {
+    margin-top: 3px;
+    margin-left: -15px;
+}
+
+
+form {
+    width: 50%;
+}
+
+
+.glyphicon {
+    top: 2px;
+    right: 5px;
+}
+
+
+
+
+
+
