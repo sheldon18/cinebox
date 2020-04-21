@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.contrib.auth.forms import UserCreationForm
 from django.core.exceptions import ValidationError
 
+
 class UserLoginForm(forms.Form):
     """Form to log in users"""
     
@@ -20,8 +21,8 @@ class UserRegistrationForm(UserCreationForm):
         fields = ['first_name', 'last_name', 'username', 'email', 'password1', 'password2']
     
     def clean_email(self):
-        email = self.cleaned_data.get('email')
-        username = self.cleaned_data.get('username')
+        email = self.cleaned_data.get('email').lower()
+        username = self.cleaned_data.get('username').lower()
         if User.objects.filter(email=email).exclude(username=username):
             raise forms.ValidationError(u'An account with this email address already exists')
         return email
@@ -37,3 +38,5 @@ class UserRegistrationForm(UserCreationForm):
             raise forms.ValidationError("Passwords must match")
         
         return password2
+        
+        

@@ -24,11 +24,12 @@ def login(request):
         login_form = UserLoginForm(request.POST)
         
         if login_form.is_valid():
-            user = auth.authenticate(username=request.POST['username'],
+            user = auth.authenticate(username=request.POST['username'].lower(),     # case insensitive login
                                      password=request.POST['password'])
                                      
             if user:
                 auth.login(user=user, request=request)
+                
                 messages.success(request, "You have successfully logged in!")
                 return redirect(reverse('index'))
             else:
