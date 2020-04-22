@@ -2,7 +2,7 @@ from django.test import TestCase
 from .models import Movie
 
 # Create your tests here.
-class MovieTest(TestCase):
+class MovieTests(TestCase):
     """The tests that will run against Movie models"""
     
     def test_str(self):

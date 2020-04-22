@@ -18,6 +18,7 @@ from django.contrib import admin
 from accounts.views import index
 from accounts import urls as accounts_urls
 from movies import urls as urls_movies
+from cart import urls as urls_cart
 from movies.views import all_movies
 from django.views import static
 from .settings import MEDIA_ROOT
@@ -27,5 +28,6 @@ urlpatterns = [
     url(r'^$', all_movies, name='index'),
     url(r'^accounts/', include(accounts_urls)),
     url(r'^movies/', include(urls_movies)),
-    url(r'^media/(?P<path>.*)$', static.serve, {'document_root' : MEDIA_ROOT}),
+    url(r'^cart/', include(urls_cart)),
+    url(r'^media/(?P<path>.*)$', static.serve,{'document_root' : MEDIA_ROOT}),
 ]
