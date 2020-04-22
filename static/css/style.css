@@ -7,9 +7,23 @@ body {
     background-color: #1c1a1a !important;
 }
 
-.h1 {
+.h1, .panel-body {
     font-family: haarlem;
 }
+
+.h3, h3, .h4, h4 {
+    color: #fff !important;
+}
+
+.input-group {
+    font-family: haarlem;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 110%;
+    margin-bottom: 0;
+}
+
 
 .navbar-nav > li > a {
     font-family: haarlem;
@@ -21,10 +35,65 @@ body {
     margin-left: -15px;
 }
 
+
+.badge {
+    padding-left: 9px;
+    padding-right: 9px;
+    -webkit-border-radius: 9px;
+    -moz-border-radius: 9px;
+    border-radius: 9px;
+}
+
+
 label {
     font-family: haarlem;
     font-size: 19px;
 }
+
+
+
+.movie {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+
+.info, .caption {
+    margin-left: 65px;
+    font-family: haarlem;
+}
+
+
+.row-row-flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.panel-default {
+    border-color: #1c1a1a !important;
+    padding: 0 10px;
+    background-color: #1c1a1a !important; 
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1c1a1a !important;
+    border-color: #1c1a1a !important;
+}
+
+
+.movie-trailer > a {
+    font-family: haarlem;
+    color: #9d753d !important;
+    font-size: 18px;
+}
+
+
+
 
 a {
     font-family: haarlem;
@@ -35,6 +104,11 @@ form {
     width: 50%;
 }
 
+.qty-control {
+    margin-left: 4px;
+    width: 10px;
+}
+
 
 .glyphicon {
     top: 2px;
@@ -42,6 +116,21 @@ form {
 }
 
 
+
+.checkout {
+    font-family: haarlem;
+    position: relative;
+    left: 83px;
+}
+
+
+
+
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
 
 
 

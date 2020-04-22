@@ -14,20 +14,23 @@
                     
                 </div>
                 
-                <h3>{{ movie.name }}</h3>
-                <h4>{{ movie.release }}</h4>
-                <p class="movie-trailer"><a href="{{ movie.trailer }}">Watch the Trailer</a></p>
-                <p>${{ movie.price }}</p>
+                <div class="info">
+                    <h3>{{ movie.name }}</h3>
+                    <h4>{{ movie.release }}</h4>
+                    <p class="movie-trailer"><a href="{{ movie.trailer }}" target="_blank">Watch the Trailer</a></p>
+                    <p>${{ movie.price }}</p>
                 
-                <form method="post" action="{% url 'add_to_cart' movie.id %}">
-                    {% csrf_token %}
-                    <div class="input-group">
-                        <input name="quantity" type="number" min="1" max="5" class="form-control" placeholder="Quantity">
-                        <span class="input-group-btn">
-                            <button class="btn btn-success" type="submit">Add</button>
-                        </span>
-                    </div>
-                </form>
+                
+                    <form method="post" action="{% url 'add_to_cart' movie.id %}">
+                        {% csrf_token %}
+                        <div class="input-group">
+                            <input name="quantity" type="number" min="1" max="5" class="form-control" placeholder="Quantity">
+                            <span class="input-group-btn">
+                                <button class="btn btn" type="submit">Add</button>
+                            </span>
+                        </div>
+                    </form>
+                </div>
             </div>
         </div>
     {% endfor %}
