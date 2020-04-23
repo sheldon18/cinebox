@@ -7,9 +7,25 @@ body {
     background-color: #1c1a1a !important;
 }
 
-.h1, .panel-body {
+h1 {
     font-family: haarlem;
+    text-align: center;
+    margin-bottom: 40px !important;
+    color: #9d753d !important;
+    text-shadow: 2px 2px #4e3d24;
 }
+
+p {
+    font-size: 18px;
+}
+
+.help-block {
+    font-size: 10px;
+}
+
+.panel-body {
+    font-family: haarlem;
+ }
 
 .h3, h3, .h4, h4 {
     color: #fff !important;
@@ -133,5 +149,15 @@ footer {
 }
 
 
+/*Media Queries*/
 
+/*@media (min-width: 1200px)*/
 
+/*}*/
+/*@media (min-width: 992px)*/
+
+/*}*/
+
+/*@media (min-width: 768px)*/
+
+/*}*/
