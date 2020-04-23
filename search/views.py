@@ -5,4 +5,5 @@ from movies.models import Movie
 
 def do_search(request):
     movies = Movie.objects.filter(name__icontains=request.GET['q'])
-    return render(request, "movies.html", {"movies":movies})
+    return render(request, "movies.html", {"movies": movies})
+    

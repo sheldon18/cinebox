@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'home',
     'movies',
     'cart',
+    'search',
 ]
 
 MIDDLEWARE = [
