@@ -149,6 +149,11 @@ footer {
 }
 
 
+.copyright {
+    float: left !important;
+}
+
+
 /*Media Queries*/
 
 /*@media (min-width: 1200px)*/
@@ -158,6 +163,8 @@ footer {
 
 /*}*/
 
-/*@media (min-width: 768px)*/
-
-/*}*/
+@media only screen and (max-width:768px) {
+   body {
+       background-color: red;
+    }
+}

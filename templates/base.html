@@ -13,6 +13,7 @@
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        
         {% block head_js %}
         {% endblock head_js %}
         <style>
@@ -78,10 +79,41 @@
         <div class="container">
             {% block content %}{% endblock %}
         </div>
-        <footer>
-            <div class="container">
-                <p>Copyright 2020</p>
+        <footer class="container-fluid footer">
+            <div id="footer-details" class="row">
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">Contact Us</h4>
+                    <p class="inline-block">
+                        <p>Phone: 0212179210</p>
+                        <p>Email: <a href="mailto:sheldon_keith@outlook.com" target="_top">info@cinebox.com</a></p>
+                    </p>
+                </div>
+                </br>
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">About Cinebox</h4>
+                    <p class="inline-block">
+                        <p>All our movies are on 4K Blu-ray discs</p>
+                        <p>Discs are shipped from Auckland, New Zealand</p>
+                        <p>Delivery time varies based on location</p>
+                        
+                    </p>
+                </div>
+                </br>
+                <div class="col-sm-4">
+                    <h4 class="uppercase general-sub">Request a movie</h4>
+                    <p class="inline-block">
+                        <p>Cant find a movie you are after?</p>
+                        <p>Request one <a href="mailto:sheldon_keith@outlook.com?Subject=Do%20you%20have%20<moviename>%20in%20stock?" target="_top">here</a></p>
+                </div>
+                </br>
             </div>
+            </br>
+            </br>
+            <div class="copyright">
+                <a href="https://github.com/sheldon18/cinebox">Copyright© 2019-2020 CINEBOX.</a></br>
+                <a href="https://github.com/sheldon18/cinebox">All rights reserved.</a>
+            </div>
+            
         </footer>
     </body>
 </html>
