@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/sheldon18/cinebox.svg?branch=master)](https://travis-ci.org/sheldon18/cinebox)
          ___        ______     ____ _                 _  ___  
         / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
        / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
