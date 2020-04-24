@@ -69,10 +69,12 @@
         <h1>{% block page_heading %}{% endblock %}</h1>
         
         {% if messages %}
-            <div>
+            <div class="container text-center">
+                <h4>
                 {% for message in messages %}
                     {{ message }} 
                 {% endfor %}
+                </h4>
             </div>
         {% endif %}
         
@@ -110,7 +112,7 @@
             </br>
             </br>
             <div class="copyright">
-                <a href="https://github.com/sheldon18/cinebox">Copyright© 2019-2020 CINEBOX.</a></br>
+                <a href="https://github.com/sheldon18/cinebox">Copyright© 2020 CINEBOX.</a></br>
                 <a href="https://github.com/sheldon18/cinebox">All rights reserved.</a>
             </div>
             

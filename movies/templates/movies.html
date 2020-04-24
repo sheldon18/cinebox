@@ -18,7 +18,7 @@
                     <h3>{{ movie.name }}</h3>
                     <h4>{{ movie.release }}</h4>
                     <p class="movie-trailer"><a href="{{ movie.trailer }}" target="_blank">Watch the Trailer</a></p>
-                    <p>${{ movie.price }}</p>
+                    <h4>${{ movie.price }}</h4>
                 
                 
                     <form method="post" action="{% url 'add_to_cart' movie.id %}">

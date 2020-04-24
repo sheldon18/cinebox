@@ -3,3 +3,13 @@
 {% block page_title %}{{ user }}'s Account Page{% endblock %}
 
 {% block page_heading %}{{ user }}'s Account{% endblock %}
+
+
+{% block content %}
+<div class="container text-center">
+    
+    <p>Need to change your password? Click <a href="{% url 'password_reset' %}">here</a> to change your password</p>
+    
+    
+</div>
+{% endblock %}   

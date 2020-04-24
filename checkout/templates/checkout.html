@@ -28,9 +28,8 @@
                 
                 <div class="info">
                     <h3>{{ item.movie.name }}</h3>
-                    <h4>{{ item.movie.release }}</h4>
-                    <p>${{ item.movie.price }}</p>
-                    <p>{{ item.quantity }}</p>
+                    <h4>${{ item.movie.price }}</h4>
+                    <h4>QTY: {{ item.quantity }}</h4>
                 
                 </div>
             </div>
@@ -38,9 +37,12 @@
     {% endfor %}
 </div>
 <div class="row checkout">
-    <p>Total</p>
-    <p>${{ total }}</p>
+    <h4>Total</h4>
+    <h4>${{ total }}</h4>
 </div>
+
+<br>
+<br>
 
 <form role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
     <legend>Payment Details</legend>
@@ -58,7 +60,7 @@
     
     {% csrf_token %}
     <div class="form-group col-md-12">
-        <input class="btn btn" id="submit_payment_btn" name="commit" type="submit" value="Submit Payment">
+        <input class="btn btn-success" id="submit_payment_btn" name="commit" type="submit" value="Submit Payment">
     </div>
 </form>
 
