@@ -8,8 +8,14 @@
 {% block content %}
 <div class="container text-center">
     
+    <h4>Hi {{ user }}, this is your account page!</h4>
+    
+    <p>Check out our movies on our <a href="{% url 'index' %}">home page</a></p>
+    
     <p>Need to change your password? Click <a href="{% url 'password_reset' %}">here</a> to change your password</p>
     
     
 </div>
+
+
 {% endblock %}   
