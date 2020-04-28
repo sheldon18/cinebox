@@ -172,13 +172,13 @@ Used __AWS C9__ IDE for this project. Click [here](https://github.com/sheldon18/
 
 ### Credits & Acknowledgements <a name="credits"></a>
 
-- Stackoverflow
-- W3schools
-- Code Institute Video Tutorials
+- Code Institute Video Tutorials for milestone project guidance
+- tackoverflow for burger button input.
+- W3schools to add main logo image.
 - password_reset_email.html added using information and help from my previous mini project.
 - All code has been self-written without use of any Git Pull requests (personal or otherwise).
 - README image uploads were using links created on GitHub Issues section.
-- 3rd party 'haarlem_deco' free font added using helping code from w3schools to add .otf files
+- 3rd party 'haarlem_deco' free font added using helping code from w3schools to add .otf files.
 - Tutor Support assistance was used for referencing static files in base.html.
 - Big thanks to Michael and rest of Tutor Support team for their patience and assitance in all of my projects.
 

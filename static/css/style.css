@@ -77,11 +77,6 @@ label {
 }
 
 
-.info, .caption {
-    margin-left: 65px;
-    font-family: haarlem;
-}
-
 
 .row-row-flex {
     display: flex;
@@ -154,6 +149,19 @@ footer {
 }
 
 
+.navbar-form .input-group>.form-control {
+    width: 100%;
+}
+
+
+.info, .caption {
+        margin-left: 1%;
+        font-family: haarlem;
+}
+
+
+
+
 /*Media Queries*/
 
 /*@media (min-width: 1200px)*/
@@ -167,5 +175,22 @@ footer {
    .navbar-brand > img {
         margin-top: 3px;
         margin-left: 50%;
+    }
+}
+
+
+@media (max-width: 788px) {
+    .navbar-form .input-group>.form-control {
+        width: 50%;
+    }
+    
+    .info, .caption {
+        margin-left: 25%;
+        font-family: haarlem;
+    }
+    
+    .navbar-brand > img {
+        margin-top: 3px;
+        margin-left: 0px;
     }
 }
