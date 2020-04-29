@@ -4,7 +4,7 @@
 
 
 This website is an e-commerce website built as a part of the Code Institute Full Stack Software Development course.
-This milestone-4 project is an online movie store for potential customers to browse and buy 4k Blu-ray discs.
+This milestone-4 project is an online movie store for potential customers to browse and buy 4k Blu-ray movie discs.
 All content is for educational purposes and I request that no real credit card information is submitted into the payment form.
 
 
@@ -15,7 +15,7 @@ All content is for educational purposes and I request that no real credit card i
 </br></br>
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80560009-8f474800-8a33-11ea-8e13-27548552272b.JPG" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80571798-5027ef80-8a51-11ea-8500-8019b47ca246.JPG" /></p>
 
 
 -----
@@ -80,7 +80,7 @@ All content is for educational purposes and I request that no real credit card i
 - 3rd party font used to give a more movie-marquee-like feel to the movie titles. 
 - Session stores the users' cart items until browser is closed or purchases are completed.
 - Stripe payment integration used for safe payment processing.
-- Contact information provided so that user/potential purchaser feels comfortable and safe on an e-commerce website
+- Contact information provided so that user/potential purchaser feels comfortable and safe on an e-commerce website.
 - Responsive design for any device/layout.
 - Smooth and easy-to-follow Sign In, Sign Out, Sign Up and Checkout functionality
 - Credit Card information is submitted directly to Stripe, no payment information is stored in this website's database.
@@ -93,7 +93,7 @@ All content is for educational purposes and I request that no real credit card i
 Done? | As a user I want to... 
 :---:| ---
 ✅|be able  to  open this app on any device
-✅|be able to  view movies without having the need to sign in
+✅|be able to  view  available movies without having the need to sign in
 ✅|be able to create an account myself 
 ✅|be able to login
 ✅|be able to logout
@@ -123,12 +123,12 @@ Done? | As a user I want to...
         alt="Valid CSS!" />
     </a>
 - __Chrome dev tools__ and __Mozilla inspect element tool__ used for testing HTML and CSS.
-- __JSHint__ used to validate jquery
+- __JSHint__ used to validate jQuery
 - All Python code conforms to __PEP8__ style guide.
-- Browser __console log__ used for testing layout, responsiveness and user actions.
+- Multiple browsers' __console logs__ used for testing layout, responsiveness and user actions.
 - Tested webhook between GitHub and Heroku.
 - Auto-deploy tested
-- __Travis-CI__ use to test Continuous Integration. Removed/Updated numerous AWS C9 auto installed apps from requirements.txt file to get Travis to pass.
+- __Travis-CI__ use to test Continuous Integration. Removed/Updated numerous AWS C9 auto-installed apps from requirements.txt file to get Travis to pass.
 
 [![Build Status](https://travis-ci.org/sheldon18/cinebox.svg?branch=master)](https://travis-ci.org/sheldon18/cinebox)
 
@@ -147,14 +147,14 @@ Used __AWS C9__ IDE for this project. Click [here](https://github.com/sheldon18/
 - 'python3 manage.py makemigrations' and 'python3 manage.py migrate' done at the end of adding each app.
 - SQLite3 database used for local deployment.
 - .env.py file created to store all sensitive variables securely.
-- .gitignore added to restrict security sensitive files being uploaded to GitHub.
-- Ran project on local Django server: [http://127.0.0.1:8080/](http://127.0.0.1:8080/)
+- .gitignore added to restrict security sensitive files and information being uploaded to GitHub.
+- Ran project on local Django server: [http://127.0.0.1:8080/](http://127.0.0.1:8080/) during development.
 - Django Admin superuser created to access admin panel and to add items.
-- AWS S3 Bucket used to host static file and media files with public permissions.
+- AWS S3 Bucket used to host static files and media files with public permissions.
 
 ### Heroku Deployment <a name="herokudeploy"></a>
 
-- Heroku app link added to Allowed Hosts in settings.py file
+- Heroku app link added to 'Allowed Hosts' in settings.py file
 - pip3 freeze --local > requirements.txt to add installed packages to requirements.txt file
 - Procfile (web: gunicorn cinebox.wsgi:application) added to project
 - DEBUG set to False
@@ -180,12 +180,12 @@ Used __AWS C9__ IDE for this project. Click [here](https://github.com/sheldon18/
 
 ### Credits & Acknowledgements <a name="credits"></a>
 
-- Code Institute Video Tutorials for milestone project guidance
+- Code Institute Video Tutorials for milestone project guidance.
 - Stackoverflow for burger button input.
 - W3schools to add main logo image.
 - password_reset_email.html added using information and help from my previous mini project.
 - All code has been self-written without use of any Git Pull requests (personal or otherwise).
-- README image uploads were using links created on GitHub Issues section.
+- README images were uploaded using links created on GitHub Issues section.
 - 3rd party 'haarlem_deco' free font added using helping code from w3schools to add .otf files.
 - Tutor Support assistance was used for referencing static files in base.html.
 - Big thanks to Michael and rest of Tutor Support team for their patience and assistance in all of my projects.
@@ -195,8 +195,8 @@ Used __AWS C9__ IDE for this project. Click [here](https://github.com/sheldon18/
  
 #### Media <a name="media"></a>
 
-- Apple devices mockup [image](https://user-images.githubusercontent.com/44424348/80560009-8f474800-8a33-11ea-8e13-27548552272b.JPG) created using Multi Device Website Mockup Generator. 
-- All images are non-watermarked images that have been sourced from IMDB and Google Images
+- Apple devices mockup [image](https://user-images.githubusercontent.com/44424348/80571798-5027ef80-8a51-11ea-8500-8019b47ca246.JPG) created using Multi Device Website Mockup Generator. 
+- All images are non-watermarked images and have been sourced from IMDB and Google Images.
 - All trailer links are youtube trailer links for the respective movie.
 
 #### Disclaimer <a name="disclaimer"></a>
