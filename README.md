@@ -15,6 +15,8 @@ All content is for educational purposes and I request that no real credit card i
 </br></br>
 
 
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80560009-8f474800-8a33-11ea-8e13-27548552272b.JPG" /></p>
+
 
 -----
 ## Table of contents
@@ -35,8 +37,10 @@ All content is for educational purposes and I request that no real credit card i
 ## Wireframes <a name="wireframes"></a>
 
 
-<p align="center"><img src="https://user-images.githubusercontent.com/44424348/78755946-1887d380-79ce-11ea-8df7-9addb9928adc.png" /></p>
-
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80559700-902baa00-8a32-11ea-8fb0-da010993ca7a.JPG" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80559703-90c44080-8a32-11ea-81c6-66e9c64b146e.JPG" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80559704-915cd700-8a32-11ea-81c2-982bc1aeebcf.JPG" /></p>
+<p align="center"><img src="https://user-images.githubusercontent.com/44424348/80559706-91f56d80-8a32-11ea-875c-98559dd20e55.JPG" /></p>
 
 
 
