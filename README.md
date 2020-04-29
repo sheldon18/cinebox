@@ -3,7 +3,7 @@
 # Cinebox Movies <a name="introduction"></a> 
 
 
-This website is an e-commerce website built as a part of the Code Institue Full Stack Software Development course.
+This website is an e-commerce website built as a part of the Code Institute Full Stack Software Development course.
 This milestone-4 project is an online movie store for potential customers to browse and buy 4k Blu-ray discs.
 All content is for educational purposes and I request that no real credit card information is submitted into the payment form.
 
@@ -83,7 +83,7 @@ All content is for educational purposes and I request that no real credit card i
 - Contact information provided so that user/potential purchaser feels comfortable and safe on an e-commerce website
 - Responsive design for any device/layout.
 - Smooth and easy-to-follow Sign In, Sign Out, Sign Up and Checkout functionality
-- Credit Card information is submitted directly to Stripe, no payment information is stored in the this website's database.
+- Credit Card information is submitted directly to Stripe, no payment information is stored in this website's database.
 - Never a need to use the Back button to move through the site.
 - EmailAPI added to the contact and 'Request a movie' fields.
 - For Code Institute Assessors only: please contact me via email if you need me to create an admin access login for testing (if required)
@@ -98,16 +98,16 @@ Done? | As a user I want to...
 ✅|be able to login
 ✅|be able to logout
 ✅|be able to see my profile page
-✅| see  the number  of  items that i add to  my cart
+✅| see  the number  of  items that I add to  my cart
 ✅| see the actual items in my cart 
 ✅| be able to use the search bar to find movies
-✅| be able to contact cinebox if  i cant  find a movie
+✅| be able to contact Cinebox if I cant  find a movie
 ✅| view  trailers  of the movies on a new tab
-✅| be able to purchase mutiple items of the same movie
+✅| be able to purchase multiple items of the same movie
 ✅| be able to adjust  quantity of specific items in the cart
 ✅| be able to  remove items from the cart
 ✅| be able to process full checkout (delivery  and payment information)
-⬜️|be able to add my own movies (Sorry, this feature is not available as this is an e-commerce website for cinebox movies.)
+⬜️|be able to add my own movies (Sorry, this feature is not available as this is an e-commerce website for Cinebox movies.)
 
 
 
@@ -123,7 +123,7 @@ Done? | As a user I want to...
         alt="Valid CSS!" />
     </a>
 - __Chrome dev tools__ and __Mozilla inspect element tool__ used for testing HTML and CSS.
-- __JSHint__ used to validate CSS code by direct input.
+- __JSHint__ used to validate jquery
 - All Python code conforms to __PEP8__ style guide.
 - Browser __console log__ used for testing layout, responsiveness and user actions.
 - Tested webhook between GitHub and Heroku.
@@ -181,22 +181,22 @@ Used __AWS C9__ IDE for this project. Click [here](https://github.com/sheldon18/
 ### Credits & Acknowledgements <a name="credits"></a>
 
 - Code Institute Video Tutorials for milestone project guidance
-- tackoverflow for burger button input.
+- Stackoverflow for burger button input.
 - W3schools to add main logo image.
 - password_reset_email.html added using information and help from my previous mini project.
 - All code has been self-written without use of any Git Pull requests (personal or otherwise).
 - README image uploads were using links created on GitHub Issues section.
 - 3rd party 'haarlem_deco' free font added using helping code from w3schools to add .otf files.
 - Tutor Support assistance was used for referencing static files in base.html.
-- Big thanks to Michael and rest of Tutor Support team for their patience and assitance in all of my projects.
+- Big thanks to Michael and rest of Tutor Support team for their patience and assistance in all of my projects.
 
  
  
  
 #### Media <a name="media"></a>
 
-- Apple devices mockup [image](https://user-images.githubusercontent.com/44424348/78756100-55ec6100-79ce-11ea-9969-cd07127840bc.JPG) created using Multi Device Website Mockup Generator. 
-- All images are non-watermarked imsages that have been sourced from IMDB and Google Images
+- Apple devices mockup [image](https://user-images.githubusercontent.com/44424348/80560009-8f474800-8a33-11ea-8e13-27548552272b.JPG) created using Multi Device Website Mockup Generator. 
+- All images are non-watermarked images that have been sourced from IMDB and Google Images
 - All trailer links are youtube trailer links for the respective movie.
 
 #### Disclaimer <a name="disclaimer"></a>
