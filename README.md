@@ -96,6 +96,7 @@ Done? | As a user I want to...
 ✅|be able to  view  available movies without having the need to sign in
 ✅|be able to create an account myself 
 ✅|be able to login
+✅|be able to login with my email address
 ✅|be able to logout
 ✅|be able to see my profile page
 ✅| see  the number  of  items that I add to  my cart
