@@ -234,7 +234,7 @@ footer {
     }
     
     .info, .caption {
-        margin-left: 32%;
+        margin-left: 24%;
         font-family: haarlem;
     }
     
@@ -248,7 +248,7 @@ footer {
         position: relative;
         z-index: 2;
         float: none;
-        width: 75%;
+        width: 125%;
         margin-bottom: 1px;
     }
     
@@ -308,9 +308,9 @@ footer {
 @media only screen and (max-width: 794px) and (min-width: 767px) {
     .navbar-right {
         margin-right: -37px !important;
-        margin-top: -51px !important;
+        margin-top: 0px !important;
     }
     .input-group {
-        width: 83%;
+        width: 110%;
     }
 }
