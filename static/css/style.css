@@ -1,48 +1,16 @@
-.navbar-inverse {
-    background-color: #1c1a1a !important;
-    border-color: #1c1a1a !important;
-}
-
 body {
     background-color: #1c1a1a !important;
     font-size: 0px !important;
 }
 
 
-h1 {
-    font-family: haarlem;
-    text-align: center;
-    margin-bottom: 40px !important;
-    color: #9d753d !important;
-    text-shadow: 2px 2px #4e3d24;
+/*navbar*/
+
+.navbar-inverse {
+    background-color: #1c1a1a !important;
+    border-color: #1c1a1a !important;
 }
 
-p {
-    font-size: 18px;
-    color: #737373;
-    
-}
-
-.help-block {
-    font-size: 10px;
-}
-
-.panel-body {
-    font-family: haarlem;
- }
-
-.h3, h3, .h4, h4 {
-    color: #fff !important;
-}
-
-.input-group {
-    font-family: haarlem;
-    position: relative;
-    z-index: 2;
-    float: left;
-    width: 110%;
-    margin-bottom: 0;
-}
 
 
 .navbar-nav > li > a {
@@ -82,6 +50,71 @@ p {
     -moz-border-radius: 9px;
     border-radius: 9px;
 }
+
+
+.navbar-form .input-group>.form-control {
+    width: 100%;
+}
+
+
+.navbar-right {
+    margin-right: -15px;
+}
+
+
+
+/*main body*/
+
+.alert {
+    padding: 10px !important;
+    margin-bottom: 20px !important;
+    border: 1px solid transparent !important;
+    border-radius: 4px !important;
+    text-align: center !important;
+    font-size: 14px !important;
+}
+
+.alert-danger {
+    color: #ffffff !important;
+    background-color: #fd0000 !important;
+    border-color: #fd0000 !important;
+}
+
+h1 {
+    font-family: haarlem;
+    text-align: center;
+    margin-bottom: 40px !important;
+    color: #9d753d !important;
+    text-shadow: 2px 2px #4e3d24;
+}
+
+p {
+    font-size: 18px;
+    color: #737373;
+    
+}
+
+.help-block {
+    font-size: 10px;
+}
+
+.panel-body {
+    font-family: haarlem;
+ }
+
+.h3, h3, .h4, h4 {
+    color: #fff !important;
+}
+
+.input-group {
+    font-family: haarlem;
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 110%;
+    margin-bottom: 0;
+}
+
 
 
 label {
@@ -165,8 +198,20 @@ form {
     left: 8%;
 }
 
+.checkouttotal {
+    font-family: haarlem;
+    position: relative;
+    left: 50%;
+}
 
 
+.info, .caption {
+    margin-left: 65px;
+    font-family: haarlem;
+}
+
+
+/*footer*/
 
 footer {
     margin-top: 40px;
@@ -180,31 +225,8 @@ footer {
 }
 
 
-.navbar-form .input-group>.form-control {
-    width: 100%;
-}
-
-
-.info, .caption {
-    margin-left: 65px;
-    font-family: haarlem;
-}
-
-.navbar-right {
-    margin-right: -15px;
-}
-
 
 /*Media Queries*/
-
-/*@media (min-width: 1200px)*/
-
-/*}*/
-/*@media (min-width: 992px)*/
-
-/*}*/
-
-
 
 @media only screen and (max-width: 767px)  {
     .navbar-form .input-group>.form-control {

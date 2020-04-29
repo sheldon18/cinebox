@@ -21,7 +21,7 @@
 <div class="row row-flex">
     {% for item in cart_items %}
         <div class="col-xs-10 col-xs-offset-1 col-sm-offset-0 col-sm-6 col-md-4 display panel panel-default">
-            <div class="panel=body">
+            <div class="panel-body">
                 <div class="movie" style="background-image: url('{{ MEDIA_URL }}{{ item.movie.image }}')">
                     
                 </div>
@@ -36,7 +36,7 @@
         </div>
     {% endfor %}
 </div>
-<div class="row checkout">
+<div class="row checkouttotal">
     <h4>Total</h4>
     <h4>${{ total }}</h4>
 </div>
@@ -44,7 +44,7 @@
 <br>
 <br>
 
-<form role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
+<form class="accounts" role="form" method="post" id="payment-form" action="{% url 'checkout' %}">
     <legend>Payment Details</legend>
     <div id="credit_card_errors" style="display:none">
         <div class="alert-message block-message error" id="stripe-error-message"></div>

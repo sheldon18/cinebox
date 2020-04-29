@@ -112,8 +112,12 @@ Done? | As a user I want to...
  
 ## Testing <a name="testing"></a>
  
-- __W3C Markup Validation Service__ used to validate code all HTML pages  by direct input.
-- __W3C CSS Validation Service__ used to validate CSS code by direct input.
+- __W3C Markup Validation Service__ used to validate code all 13 HTML pages  by direct input.
+- __W3C CSS Validation Service__ used to validate CSS code by direct input. <a href="http://jigsaw.w3.org/css-validator/check/referer">
+    <img style="border:0;width:88px;height:31px"
+        src="http://jigsaw.w3.org/css-validator/images/vcss-blue"
+        alt="Valid CSS!" />
+    </a>
 - __Chrome dev tools__ and __Mozilla inspect element tool__ used for testing HTML and CSS.
 - __JSHint__ used to validate CSS code by direct input.
 - All Python code conforms to __PEP8__ style guide.
