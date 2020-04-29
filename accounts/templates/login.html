@@ -8,11 +8,11 @@
 
 
 {% block content %}
-<form method="POST">
+<form class="accounts" method="POST">
     {% csrf_token %}
     {{ login_form | as_bootstrap }}
     <button type="submit" class="btn btn">Sign In</button>
 </form>
 
-<p><a href="{% url 'password_reset' %}">Forgot password?</a></p>
-{% endblock %}    
+<p class="prompts"><a href="{% url 'password_reset' %}">Forgot password?</a></p>
+{% endblock %}  

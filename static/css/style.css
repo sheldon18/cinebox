@@ -5,7 +5,9 @@
 
 body {
     background-color: #1c1a1a !important;
+    font-size: 0px !important;
 }
+
 
 h1 {
     font-family: haarlem;
@@ -17,6 +19,8 @@ h1 {
 
 p {
     font-size: 18px;
+    color: #737373;
+    
 }
 
 .help-block {
@@ -52,6 +56,25 @@ p {
 }
 
 
+.navbar-form {
+    padding: 10px 15px;
+    margin-right: -15px;
+    margin-left: -15px;
+    border-top: 0px solid transparent !important;
+    border-bottom: 0px solid transparent !important;
+    box-shadow: none !important;
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+
+.navbar-collapse {
+    padding-right: 15px;
+    padding-left: 15px;
+    overflow-x: visible;
+    border-top: 0px solid transparent !important;
+    box-shadow: none !important;
+}
+
 .badge {
     padding-left: 9px;
     padding-right: 9px;
@@ -64,6 +87,7 @@ p {
 label {
     font-family: haarlem;
     font-size: 19px;
+    color: #737373;
 }
 
 
@@ -104,15 +128,22 @@ label {
 }
 
 
+.prompts {
+    margin-left: 25% !important;
+}
 
 
 a {
     font-family: haarlem;
 }
 
-
 form {
     width: 50%;
+}
+
+.accounts {
+    width: 50%;
+    margin-left: 25% !important;
 }
 
 .qty-control {
@@ -131,7 +162,7 @@ form {
 .checkout {
     font-family: haarlem;
     position: relative;
-    left: 83px;
+    left: 8%;
 }
 
 
@@ -143,9 +174,9 @@ footer {
     padding-bottom: 20px;
 }
 
-
 .copyright {
     float: left !important;
+    font-size: 12px !important;
 }
 
 
@@ -155,11 +186,13 @@ footer {
 
 
 .info, .caption {
-        margin-left: 1%;
-        font-family: haarlem;
+    margin-left: 65px;
+    font-family: haarlem;
 }
 
-
+.navbar-right {
+    margin-right: -15px;
+}
 
 
 /*Media Queries*/
@@ -171,26 +204,91 @@ footer {
 
 /*}*/
 
-@media only screen and (max-width:768px) {
-   .navbar-brand > img {
-        margin-top: 3px;
-        margin-left: 50%;
-    }
-}
 
 
-@media (max-width: 788px) {
+@media only screen and (max-width: 767px)  {
     .navbar-form .input-group>.form-control {
-        width: 50%;
+        width: 100%;
     }
     
     .info, .caption {
-        margin-left: 25%;
+        margin-left: 32%;
         font-family: haarlem;
     }
     
     .navbar-brand > img {
         margin-top: 3px;
         margin-left: 0px;
+    }
+    
+    .input-group {
+        font-family: haarlem;
+        position: relative;
+        z-index: 2;
+        float: none;
+        width: 75%;
+        margin-bottom: 1px;
+    }
+    
+    .navbar-form {
+        padding: 0px 15px !important;
+        margin-right: -15px !important;
+        margin-left: -26px !important;
+        margin-top: 8px !important;
+    }
+}
+
+@media (max-width: 788px) and (min-width: 768px)  {
+    .navbar-form .input-group>.form-control {
+        width: 100%;
+    }
+    
+    .info, .caption {
+        margin-left: 20%;
+        font-family: haarlem;
+    }
+    
+    .navbar-brand > img {
+        margin-top: 3px;
+        margin-left: 0px;
+    }
+    
+    .input-group {
+        font-family: haarlem;
+        position: relative;
+        z-index: 2;
+        float: none;
+        width: 83%;
+        margin-bottom: 1px;
+    }
+    
+    .checkout {
+        position: relative;
+        left: 37% !important;
+    }
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 789px) {
+   .info, .caption {
+        margin-left: 17%;
+        font-family: haarlem;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+   .info, .caption {
+        margin-left: 12%;
+        font-family: haarlem;
+    }
+}
+
+@media only screen and (max-width: 794px) and (min-width: 767px) {
+    .navbar-right {
+        margin-right: -37px !important;
+        margin-top: -51px !important;
+    }
+    .input-group {
+        width: 83%;
     }
 }
